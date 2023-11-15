@@ -54,3 +54,20 @@ console.log(a - b);
 console.log(a * b);
 console.log(a / b);
 console.log(a % b);
+
+// COMPARACIÓN
+
+let nom = "juancito";
+let esMayor = true;
+
+console.log(esMayor == true);
+console.log(nom == "pepe");
+
+let n1 = 1;
+let n2 = 2;
+
+console.log(n1 == n2);
+console.log(n1 != n2);
+console.log(n1 > n2);
+console.log(n1 < n2);
+console.log(n1 >= n2);
