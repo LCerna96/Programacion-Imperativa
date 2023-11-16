@@ -1,4 +1,4 @@
-// ANCHOR ----> Variables
+// VARIABLES
 
 // let - const
 
@@ -11,14 +11,14 @@ console.log(edad);
 console.log(nombre);
 console.log(apellido);
 
-// ANCHOR ----> Tipos de datos
+// TIPOS DE DATOS
 
-// STRINGS --> cadenas de texto
+// Strings --> cadenas de texto
 
 let frase = "hola como estas?";
 let frase2 = "hola como estás?";
 
-// CONCATENACIÓN
+// concatenación
 
 let nombreUsuario = "Pepito";
 
@@ -28,7 +28,7 @@ console.log("hola " + nombreUsuario);
 
 console.log(`Hola ${nombreUsuario} como estás?`);
 
-// NUMBERS --> números
+// Numbers --> números
 
 let altura = 176.6;
 let telefono = "1234567890";
@@ -36,15 +36,15 @@ let telefono = "1234567890";
 console.log(typeof altura);
 console.log(typeof telefono);
 
-// BOOLEANS --> booleanos --> true or false
+// Booleans --> booleanos --> true or false
 
 let estaLogeado = true;
 
 console.log(typeof estaLogeado);
 
-// ANCHOR ----> Operadores
+// OPERADORES
 
-// MATEMATICOS
+// Matemáticos
 
 let a = 2;
 let b = 5;
@@ -55,7 +55,7 @@ console.log(a * b);
 console.log(a / b);
 console.log(a % b);
 
-// COMPARACIÓN
+// Comparación
 
 let nom = "juancito";
 let esMayor = true;
@@ -66,8 +66,10 @@ console.log(nom == "pepe");
 let n1 = 1;
 let n2 = 2;
 
-console.log(n1 == n2);
-console.log(n1 != n2);
+console.log(n1 == n2); // comparación simple
+console.log(n1 != n2); // comparación simple
+console.log(n1 === n2); // comparación estricta
+console.log(n1 !== n2); // comparación estricta
 console.log(n1 > n2);
 console.log(n1 < n2);
 console.log(n1 >= n2);
