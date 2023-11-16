@@ -53,3 +53,31 @@ console.log(res2);
 
 let res3 = sumar(6, 1);
 console.log(res3);
+
+// Expresada común --> anónima
+
+let restar = function (n1, n2) {
+  return n1 - n2;
+};
+
+let resultado = restar(12, 54);
+
+// Expresada de tipo flecha
+
+let multiplicar = (numero) => {
+  return numero * 2;
+};
+let dividir = (numero) => numero / 2;
+
+// SCOPE --> alcance
+// unicamente en su mismo scope o inferiores
+
+let edad = 10;
+
+console.log(edad);
+
+let probandoScope = () => {
+  console.log(edad);
+};
+
+probandoScope();
